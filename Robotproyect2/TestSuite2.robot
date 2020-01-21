@@ -23,3 +23,4 @@ Login
     SeleniumLibrary.Input Text    Id=tealeaf_user_password     &{CREDENTIALS}[PASS]
     SeleniumLibrary.Click Button    Id=tag_ut_button_msisdn
     Sleep    30
+    SeleniumLibrary.Close All Browsers
