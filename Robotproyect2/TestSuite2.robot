@@ -2,6 +2,10 @@
 Documentation    Ejemplo de mi primer Test con Selenium - Login miOrangeApp Movilizado
 #Incluimos la libreria de Selenium
 Library    SeleniumLibrary
+Suite Setup    NONE
+Test Setup    NONE
+Test Teardown    Run Keyword If Test Failed    Close Browser
+Suite Teardown    Close All Browsers
 
 *** Variables ***
 #definimos una variable de tipo Texto donde almacenaremos el navegador a utilizar
